@@ -18,7 +18,7 @@ class MyApp extends StatelessWidget {
       theme: ThemeData(
         fontFamily: 'HindiSiliguri',
         brightness: Brightness.light,
-        primaryColor: AppColors.primary // util color is used here claas.variable
+        primaryColor: AppColors.primary // util color is used here class.variable
        
       ),
        home: Home(),

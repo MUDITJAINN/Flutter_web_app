@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_web_app/utils/constants.dart';
 import 'package:flutter_web_app/widgets/navbar.dart';
+import 'package:flutter_web_app/pages/containers/container1.dart';
 
 class Home extends StatefulWidget {
   //class name starts with capital
@@ -16,14 +17,13 @@ class _HomeState extends State<Home> {
     w = MediaQuery.of(context).size.width; // defining contants in widget build
     h = MediaQuery.of(context).size.height;
     return Scaffold(
-      body: SingleChildScrollView(
+        // widget returning Scaffold
+        body: SingleChildScrollView(
       child: Container(
-        child: Column(
-          children: [NavBar()
-          ],
-        )
-      ),
-      )
-    );
+          child: Column(
+        // calling widgets and pages
+        children: [NavBar(),Container1()],
+      )),
+    ));
   }
 }
