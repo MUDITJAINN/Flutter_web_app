@@ -136,13 +136,16 @@ class _Container1State extends State<Container1> {
                       // we can put both text and icon in Elevated button.icon
                     ),
                     SizedBox(
-                      width: 20,
+                      height: 20,
                     ),
                     Text(
                       '— Web, iOs and Android',
                       style:
                           TextStyle(color: Colors.grey.shade400, fontSize: 20),
-                    )
+                    ),
+                     SizedBox(
+                      height: 20,
+                    ),
                   ],
                 )
               ],

@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_web_app/pages/containers/container2.dart';
 import 'package:flutter_web_app/utils/constants.dart';
 import 'package:flutter_web_app/widgets/navbar.dart';
 import 'package:flutter_web_app/pages/containers/container1.dart';
@@ -22,7 +23,7 @@ class _HomeState extends State<Home> {
       child: Container(
           child: Column(
         // calling widgets and pages
-        children: [NavBar(),Container1()],
+        children: [NavBar(),Container1(),Container2(),],
       )),
     ));
   }
