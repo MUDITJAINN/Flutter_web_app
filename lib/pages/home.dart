@@ -1,8 +1,12 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_web_app/pages/containers/container2.dart';
+import 'package:flutter_web_app/pages/containers/container5.dart';
 import 'package:flutter_web_app/utils/constants.dart';
 import 'package:flutter_web_app/widgets/navbar.dart';
 import 'package:flutter_web_app/pages/containers/container1.dart';
+import 'package:flutter_web_app/pages/containers/container4.dart';
+import 'package:flutter_web_app/pages/containers/container3.dart';
+
 
 class Home extends StatefulWidget {
   //class name starts with capital
@@ -23,7 +27,7 @@ class _HomeState extends State<Home> {
       child: Container(
           child: Column(
         // calling widgets and pages
-        children: [NavBar(),Container1(),Container2(),],
+        children: [NavBar(),Container1(),Container2(),Container3(),Container4(),Container5()],
       )),
     ));
   }
