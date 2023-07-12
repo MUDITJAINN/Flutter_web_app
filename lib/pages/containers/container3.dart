@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_web_app/pages/containers/commoncontainer.dart';
+import 'package:flutter_web_app/pages/containers/commoncontainermobile.dart';
 
 import 'package:flutter_web_app/utils/constants.dart';
 import 'package:responsive_builder/responsive_builder.dart';
@@ -23,7 +24,13 @@ class _Container3State extends State<Container3> {
   }
 
   Widget MobileContainer3() {
-    return Container();
+    return CommonContainerMobile(
+      'ALWAYS ONLINE',
+        'Real-time support \nwith cloud',
+        'Tellus lacus morbi sagittis lacus in. Amet nisl at mauris enim',
+        illustrator,
+      
+    );
   }
 
   Widget DesktopContainer3() {

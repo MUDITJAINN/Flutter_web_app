@@ -36,7 +36,7 @@ class _Container1State extends State<Container1> {
               fit: BoxFit.contain,
             )),
           ),
-          SizedBox(height: 20,),
+         
           Container(
             child: Column(
          //property for row and column
