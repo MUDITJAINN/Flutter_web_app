@@ -2,14 +2,15 @@
 
 ## Introduction
 
-Finance is a Flutter-based expense tracking app that helps you organize your income and expenses. With real-time support and cloud integration, Finance allows you to stay connected and manage your finances efficiently. This README provides an overview of the project structure and key features.
+Finance is a Flutter-based expense tracking app that helps you organize your income and expenses. With real-time support and cloud integration using Firebase, Finance allows you to stay connected and manage your finances efficiently. This README provides an overview of the project structure and key features.
 
 ## Features
 
 - Track your expenses and save money
-- Real-time support with cloud integration
+- Real-time support with cloud integration using Firebase
 - Organize your income and expenses
 - Cross-platform compatibility (Web, iOS, and Android)
+- Highly responsive design for different devices
 
 ## Installation
 
@@ -24,7 +25,12 @@ To run the Finance app, follow these steps:
 flutter pub get
 ```
 
-5. Run the app using the following command:
+5. Set up Firebase for the app:
+   - Create a new Firebase project on the [Firebase Console](https://console.firebase.google.com/).
+   - Generate a new `google-services.json` file for Android and place it in the `android/app` directory.
+   - Generate a new `GoogleService-Info.plist` file for iOS and place it in the `ios/Runner` directory.
+
+6. Run the app using the following command:
 
 ```shell
 flutter run
@@ -52,6 +58,10 @@ The project structure is as follows:
 - `assets/`: Contains asset files used in the app (e.g., images).
   - `images/`: Contains image assets used in the app.
 
+## Responsiveness
+
+The Finance app is designed to be highly responsive and adaptable to different devices and screen sizes. The layout and UI components adjust dynamically to provide an optimal user experience on various platforms, including Web, iOS, and Android.
+
 ## How to Contribute
 
 Contributions to the Finance app are welcome and encouraged! If you would like to contribute, please follow these steps:
@@ -66,11 +76,11 @@ Please make sure to follow the project's code style and conventions.
 
 ## License
 
-Xpense is licensed under the [MIT License](LICENSE). Feel free to use, modify, and distribute the code as per the terms of the license.
+Finance is licensed under the [MIT License](LICENSE). Feel free to use, modify, and distribute the code as per the terms of the license.
 
 ## Contact
 
-If you have any questions or suggestions regarding the Xpense app, please feel free to reach out to the project maintainer at [jainmuditt@gmail.com](mailto:jainmuditt@gmail.com). We appreciate your feedback!
+If you have any questions or suggestions regarding the Finance app, please feel free to reach out to the project maintainer at [jainmuditt@gmail.com](mailto:jainmuditt@gmail.com). We appreciate your feedback!
 # flutter_web_app
 
 A new Flutter project.
