@@ -81,13 +81,8 @@ Finance is licensed under the [MIT License](LICENSE). Feel free to use, modify, 
 ## Contact
 
 If you have any questions or suggestions regarding the Finance app, please feel free to reach out to the project maintainer at [jainmuditt@gmail.com](mailto:jainmuditt@gmail.com). We appreciate your feedback!
-# flutter_web_app
 
-A new Flutter project.
-
-## Getting Started
-
-This project is a starting point for a Flutter application.
+## beginners section
 
 A few resources to get you started if this is your first Flutter project:
 
