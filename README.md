@@ -1,16 +1,20 @@
 # Finance App
 
-## Introduction
+# 💸 Finance App (Flutter)
 
-Finance is a Flutter-based expense tracking app that helps you organize your income and expenses. With real-time support and cloud integration using Firebase, Finance allows you to stay connected and manage your finances efficiently. This README provides an overview of the project structure and key features.
+Finance is a **Flutter-based UI showcase** for a finance tracking app. It presents a sleek and responsive design for dashboards that help visualize income and expenses across platforms. Built for Web, Android, and iOS using only Flutter.
 
-## Features
+> ⚠️ Note: This project currently demonstrates **UI only**. Firebase has been initialised, but backend integration (Firestore, Auth, etc.) is part of future development.
 
-- Track your expenses and save money
-- Real-time support with cloud integration using Firebase
-- Organize your income and expenses
-- Cross-platform compatibility (Web, iOS, and Android)
-- Highly responsive design for different devices
+---
+
+## ✨ Features
+
+- 📊 UI for income and expense tracking
+- ⚡ Clean and modern responsive layout
+- 🖥️ Works across Web, ios, and Android
+- 🔁 Modular widget-based design
+- 🔥 Firebase initialised for future features
 
 ## Installation
 
